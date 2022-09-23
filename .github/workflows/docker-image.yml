@@ -43,4 +43,4 @@ jobs:
         file: ./Dockerfile
         platforms: linux/amd64
         push: true
-        tags: ebini/awstools/latest # ${{ steps.prep.outputs.tags }}
+        tags: ebini/awstools:latest # ${{ steps.prep.outputs.tags }}
